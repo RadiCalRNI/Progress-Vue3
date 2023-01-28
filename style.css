@@ -1,0 +1,27 @@
+.progress {
+  width: 332px;
+  height: 10px;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgb(190, 189, 189);
+}
+
+.progressInner {
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: inherit;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.btn {
+  margin: 10px 8px;
+  width: 150px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 18px;
+  background-color: forestgreen;
+}

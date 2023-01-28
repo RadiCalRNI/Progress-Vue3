@@ -13,7 +13,7 @@
 
     <div id="app">
         <div class="progress">
-            <div class="progressInner red"></div>
+            <div class="progressInner red" :style="{width: progress + '%'}"></div>
         </div>
         <button @mousemove="increase" class="btn">+</button>
         <button @mousemove="decrease" class="btn">-</button>
